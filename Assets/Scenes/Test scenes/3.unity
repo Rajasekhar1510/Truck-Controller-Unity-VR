@@ -585,13 +585,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68534678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0.155, z: 0}
   m_LocalScale: {x: 125, y: 125, z: 125}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 824383271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &68534680
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3551,7 +3551,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3588,7 +3588,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5000
+  m_ColorTemperature: 9429
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -6958,14 +6958,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824383270}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.2799997, y: 0.497, z: 3.1180003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 68534679}
   m_Father: {fileID: 31231973}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &845196055
 GameObject:
   m_ObjectHideFlags: 0
@@ -7418,7 +7418,7 @@ MonoBehaviour:
   brakeForce: 3000
   steerspeed: 30
   steeringWheel: {fileID: 1886641672}
-  maxSteeringWheelAngle: 140
+  maxSteeringWheelAngle: 50
 --- !u!54 &885730526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13873,14 +13873,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703963953}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.21, y: 0.55180866, z: 3.0534823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2017909696}
   m_Father: {fileID: 31231973}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1718105224
 GameObject:
   m_ObjectHideFlags: 0
@@ -15234,10 +15234,10 @@ MonoBehaviour:
   _constraints:
     MinAngle:
       Constrain: 1
-      Value: -140
+      Value: -50
     MaxAngle:
       Constrain: 1
-      Value: 140
+      Value: 50
 --- !u!114 &1886641674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15255,10 +15255,10 @@ MonoBehaviour:
   _constraints:
     MinAngle:
       Constrain: 1
-      Value: -140
+      Value: -50
     MaxAngle:
       Constrain: 1
-      Value: 140
+      Value: 50
 --- !u!114 &1886641675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16208,13 +16208,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017909695}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 125, y: 125, z: 125}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1703963954}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2017909697
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -31,14 +31,15 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Overlay UI
   - Water
   - UI
-  - 
+  - Steering
   - 
   - 
   - 

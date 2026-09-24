@@ -4,7 +4,7 @@ public class wheel : MonoBehaviour
 {
     public WheelCollider wheelCollider;
     public Transform wheelMesh;
-    public bool wheelTurn; //true IF the wheels turn left/right
+    public bool wheelTurn; 
 
     void Update()
     {
