@@ -32,6 +32,7 @@ TagManager:
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
   - Wall
+  - TrafficTrigger
   layers:
   - Default
   - TransparentFX

@@ -12,4 +12,15 @@ public class WallDetector : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("TrafficTrigger"))
+        {
+            if (ParkingTrigger.Instance != null)
+            {
+                ParkingTrigger.Instance.FailObjective();
+            }
+        }
+    }
 }
